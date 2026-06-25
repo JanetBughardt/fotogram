@@ -1,0 +1,70 @@
+
+<head>
+   
+    <!DOCTYPE html>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="skript.js"></script>
+    <link rel="icon" href="icons/favicon_fotogram.png">
+
+    <title>FotoGram</title>
+   
+
+</head>
+
+
+<body onload= render()>
+
+   
+    <header>
+        <img class="header-logo" src="icons/logo_fotogram.svg" alt="header-logo">
+    </header>
+
+    <section>
+
+        <h2>Persönliches Fotoalbum </h2>
+
+
+        <div id="overlay" class="overlay-container">
+            <div><button onclick="toggleOverlay()"></button></div>
+            <div><button onclick="nextImage()">></button></div>
+        </div>
+
+        <div class="images max-width">
+            <img onclick="renderFilter(1)" src="./img/ai-generated-8659507_1280.jpg" alt="1">
+            <img onclick="renderFilter(2)" src="./img/ai-generated-8961074_1280.jpg" alt="2">
+            <img onclick="renderFilter(3)" src="./img/anemone-4475898_1280.jpg" alt="3">
+        </div>
+        <div class="images max-width">
+            <img onclick="renderFilter(4)" src="./img/anemonefish-1496866_1280.jpg" alt="4">
+            <img onclick="renderFilter(5)" src="./img/fish-4888451_1280.jpg" alt="5">  
+            <img onclick="renderFilter(6)" src="./img/jellyfish-2427426_1280.jpg" alt="6">
+        </div>
+        <div class="images max-width">
+            <img onclick="renderFilter(7)" src="./img/sea-3572203_1280.jpg" alt="7">
+            <img onclick="renderFilter(8)" src="./img/waterfall-7845023_1280.jpg" alt="8">
+            <img onclick="renderFilter(9)" src="./img/waterfall-8350178_1280.jpg" alt="9">
+        </div>
+        <div class="images max-width">
+            <img onclick="renderFilter(10)" src="./img/whale-1850235_1280.jpg" alt="10">
+        </div>
+       
+
+
+    </section>
+    <div id="content">
+   
+    <footer>
+        
+        
+        
+        <p>@2024 Janet Burghardt </p>
+
+    </footer>
+    </div>
+    
+</body>
+</html>
