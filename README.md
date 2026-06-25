@@ -32,7 +32,7 @@ Fotogram ist eine interaktive Bildergalerie mit Fokus auf Benutzerfreundlichkeit
 
 ### overlay
 
-![Search Function](screenshots/overlay.png)
+![Overlay](screenshots/overlay.png)
 
 ## 🚀 Was ich bei diesem Projekt gelernt habe
 
