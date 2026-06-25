@@ -26,7 +26,13 @@ Fotogram ist eine interaktive Bildergalerie mit Fokus auf Benutzerfreundlichkeit
 
 ## 📷 Screenshots
 
-*(werden ergänzt)*
+### Homepage
+
+![Homepage](screenshots/homepage.png)
+
+### overlay
+
+![Overlay](screenshots/overlay.png)
 
 ## 🚀 Was ich bei diesem Projekt gelernt habe
 
